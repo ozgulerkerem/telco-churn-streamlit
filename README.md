@@ -1,6 +1,7 @@
 \# Telco Customer Churn Prediction \& Retention Simulator
 
-
+## Live Demo
+https://customer-churn-ai-simulator.streamlit.app/
 
 This project builds an end-to-end machine learning pipeline to predict customer churn using the Telco Customer Churn dataset. The final model is deployed using Streamlit and includes a simple retention ROI simulator.
 
