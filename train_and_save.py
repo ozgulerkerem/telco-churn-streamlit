@@ -9,7 +9,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import GradientBoostingClassifier
 
-DATA_PATH = "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+DATA_PATH = os.path.join("data", "WA_Fn-UseC_-Telco-Customer-Churn.csv")
 MODEL_PATH = os.path.join("models", "churn_pipeline.joblib")
 
 df = pd.read_csv(DATA_PATH)
